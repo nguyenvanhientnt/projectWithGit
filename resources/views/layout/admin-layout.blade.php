@@ -10,15 +10,15 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{secure_asset('assets/images/favicon.png`')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/favicon.png`')}}">
     <title>Adminmart Template - The Ultimate Multipurpose admin template</title>
     <!-- Custom CSS -->
-    <link href="{{secure_asset('assets/extra-libs/c3/c3.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/libs/chartist/dist/chartist.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet" />
+    <link href="{{asset('assets/extra-libs/c3/c3.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/libs/chartist/dist/chartist.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <!-- Custom CSS -->
-    <link href="{{secure_asset('dist/css/style.min.css')}}" rel="stylesheet">
+    <link href="{{asset('dist/css/style.min.css')}}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,17 +65,17 @@
                     <a href="index.html">
                         <b class="logo-icon">
                             <!-- Dark Logo icon -->
-                            <img src="{{secure_asset('assets/images/logo-icon.png')}}" alt="homepage" class="dark-logo" />
+                            <img src="{{asset('assets/images/logo-icon.png')}}" alt="homepage" class="dark-logo" />
                             <!-- Light Logo icon -->
-                            <img src="{{secure_asset('assets/images/logo-icon.png')}}" alt="homepage" class="light-logo" />
+                            <img src="{{asset('assets/images/logo-icon.png')}}" alt="homepage" class="light-logo" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                                 <!-- dark Logo text -->
-                                <img src="{{secure_asset('assets/images/logo-text.png')}}" alt="homepage" class="dark-logo" />
+                                <img src="{{asset('assets/images/logo-text.png')}}" alt="homepage" class="dark-logo" />
                             <!-- Light Logo text -->
-                                <img src="{{secure_asset('assets/images/logo-light-text.png')}}" class="light-logo" alt="homepage" />
+                                <img src="{{asset('assets/images/logo-light-text.png')}}" class="light-logo" alt="homepage" />
                             </span>
                     </a>
                 </div>
@@ -227,7 +227,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false">
-                            <img src="{{secure_asset('assets/images/users/profile-pic.jpg')}}" alt="user" class="rounded-circle"
+                            <img src="{{asset('assets/images/users/profile-pic.jpg')}}" alt="user" class="rounded-circle"
                                  width="40">
                             <span class="ml-2 d-none d-lg-inline-block"><span>Hello,</span> <span
                                         class="text-dark">Jason Doe</span> <i data-feather="chevron-down"
@@ -557,29 +557,29 @@
 <!-- ============================================================== -->
 <!-- All Jquery -->
 <!-- ============================================================== -->
-<script src="{{secure_asset('assets/libs/jquery/dist/jquery.min.js')}}"></script>
-<script src="{{secure_asset('assets/libs/popper.js/dist/umd/popper.min.js')}}"></script>
-<script src="{{secure_asset('assets/libs/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/libs/jquery/dist/jquery.min.js')}}"></script>
+<script src="{{asset('assets/libs/popper.js/dist/umd/popper.min.js')}}"></script>
+<script src="{{asset('assets/libs/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/20.0.0/classic/ckeditor.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 <!-- apps -->
 <!-- apps -->
-<script src="{{secure_asset('dist/js/app-style-switcher.js')}}"></script>
-<script src="{{secure_asset('dist/js/feather.min.js')}}"></script>
-<script src="{{secure_asset('assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js')}}"></script>
-<script src="{{secure_asset('dist/js/sidebarmenu.js')}}"></script>
+<script src="{{asset('dist/js/app-style-switcher.js')}}"></script>
+<script src="{{asset('dist/js/feather.min.js')}}"></script>
+<script src="{{asset('assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js')}}"></script>
+<script src="{{asset('dist/js/sidebarmenu.js')}}"></script>
 <!--Custom JavaScript -->
-<script src="{{secure_asset('dist/js/custom.min.js')}}"></script>
+<script src="{{asset('dist/js/custom.min.js')}}"></script>
 <!--This page JavaScript -->
-<script src="{{secure_asset('assets/extra-libs/c3/d3.min.js')}}"></script>
-<script src="{{secure_asset('assets/extra-libs/c3/c3.min.js')}}"></script>
-<script src="{{secure_asset('assets/libs/chartist/dist/chartist.min.js')}}"></script>
-<script src="{{secure_asset('assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js')}}"></script>
-<script src="{{secure_asset('assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js')}}"></script>
-<script src="{{secure_asset('assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js')}}"></script>
-<script src="{{secure_asset('dist/js/pages/dashboards/dashboard1.min.js')}}"></script>
+<script src="{{asset('assets/extra-libs/c3/d3.min.js')}}"></script>
+<script src="{{asset('assets/extra-libs/c3/c3.min.js')}}"></script>
+<script src="{{asset('assets/libs/chartist/dist/chartist.min.js')}}"></script>
+<script src="{{asset('assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js')}}"></script>
+<script src="{{asset('assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js')}}"></script>
+<script src="{{asset('assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js')}}"></script>
+<script src="{{asset('dist/js/pages/dashboards/dashboard1.min.js')}}"></script>
 
 @yield('script')
 </body>

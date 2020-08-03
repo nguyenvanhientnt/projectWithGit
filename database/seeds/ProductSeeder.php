@@ -11,7 +11,7 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        if (env('DATABASE_URL') == 'mysql') {
+        if (env('DB_CONNECTION') == 'mysql') {
             \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 0');
         }
         \Illuminate\Support\Facades\DB::table('products')->truncate();
@@ -137,7 +137,7 @@ class ProductSeeder extends Seeder
                 'status' => 1
             ]
         ]);
-        if (env('DATABASE_URL') == 'mysql') {
+        if (env('DB_CONNECTION') == 'mysql') {
             \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
         }
     }
