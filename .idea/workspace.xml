@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24611d5-bdcf-4dfb-80c1-f30bbeedf389" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="89">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="284">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="185">
+              <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -93,8 +93,8 @@
       <find>Start Top Lead</find>
       <find>token</find>
       <find>http:</find>
-      <find>asset(</find>
       <find>secure_asset</find>
+      <find>asset(</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -126,9 +126,9 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/seeds/CategorySeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/ProductSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php" />
       </list>
     </option>
   </component>
@@ -326,15 +326,15 @@
       <workItem from="1596009214238" duration="11744000" />
       <workItem from="1596192730369" duration="1390000" />
       <workItem from="1596246356625" duration="139000" />
-      <workItem from="1596450380110" duration="4585000" />
+      <workItem from="1596450380110" duration="4918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30159000" />
+    <option name="totallyTimeSpent" value="30492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="23" width="1024" height="674" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859944" weight="0.28105906" />
@@ -352,34 +352,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.6302521" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.5560224" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.8281787" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859944" weight="0.28105906" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5014006" side_tool="true" weight="0.25822604" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.6302521" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.5560224" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -524,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/CategorySeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
@@ -545,17 +516,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="89">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="185">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/admin-layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>
