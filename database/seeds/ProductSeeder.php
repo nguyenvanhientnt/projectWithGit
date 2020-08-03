@@ -11,7 +11,9 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-//        \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+        if (env('DATABASE_URL') == 'mysql') {
+            \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+        }
         \Illuminate\Support\Facades\DB::table('products')->truncate();
         \Illuminate\Support\Facades\DB::table('products')->insert([
             [
@@ -135,6 +137,8 @@ class ProductSeeder extends Seeder
                 'status' => 1
             ]
         ]);
-//        \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
+        if (env('DATABASE_URL') == 'mysql') {
+            \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
+        }
     }
 }

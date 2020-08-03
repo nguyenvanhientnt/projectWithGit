@@ -11,7 +11,9 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-//        \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+        if (env('DATABASE_URL') == 'mysql') {
+            \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+        }
         \Illuminate\Support\Facades\DB::table('categories')->truncate();
         \Illuminate\Support\Facades\DB::table('categories')->insert([
             [
@@ -27,6 +29,8 @@ class CategorySeeder extends Seeder
                 'name' => 'Đồ trẻ em'
             ]
         ]);
-//        \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
+        if (env('DATABASE_URL') == 'mysql') {
+            \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
+        }
     }
 }
